@@ -1,5 +1,19 @@
 $(document).ready(function(){
 
+var currentQuestion; 
+var currentAnswer; 
+var incorrectAnswer; 
+var unanswered; 
+var seconds; 
+var time;
+var answered; 
+var UserSelect; 
+var messages = {
+    correct: "Correct!"+ "<br>" + "That's what I do: drink and know things", 
+    incorrect: "Incorrect!" + "<br>" + "You know nothing Jon Snow",
+    endTime: "The night is dark and full of terrors" + "<br>" + "You ran out of time!",
+    finished: "How did you do?"
+}
 
 var triviaQuestions = [
     {   question: "Who was responsible for the creation of the Night King?",
@@ -93,8 +107,6 @@ var triviaQuestions = [
         answerText: , 
     }
 ];
-
-
 
 
 });
