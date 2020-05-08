@@ -1,0 +1,26 @@
+body {
+    background-color: #000000;
+}
+
+.jumbotron {
+    background-image: url("../images/GOTcover.jpg");
+    margin-bottom: 30px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    width: 100%;
+
+}
+
+@font-face {
+    font-family: 'Game of Thrones';
+    src: url('GameofThrones.eot');
+    src: url('GameofThrones.eot?#iefix') format('embedded-opentype'),
+        url('GameofThrones.woff') format('woff'),
+        url('GameofThrones.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
