@@ -71,10 +71,10 @@ body {
 
 .answerList {
     text-align: center;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 35px;
+    margin-left: 35px;
     color: #989899;
-    font-size: 130%;
+    font-size: 140%;
     line-height: 1.5;
     margin-bottom: 20px;
     font-weight: 500;
@@ -84,4 +84,53 @@ body {
     background-color: #989899;
     color: #100c08;
     ;
+}
+
+#message {
+    color: #D3D3D3;
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+#gif {
+    margin-bottom: 15px;
+    margin-top: 15px; 
+}
+
+.gifImg {
+    max-height: 300px;
+    max-width: 460px;
+}
+
+.reset {
+    background-color: #989899;
+    color: #100c08;
+    border: 1px solid #100c08;
+    font-size: 200%;
+    letter-spacing: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.reset:hover {
+    background-color: #100c08;
+    color: #989899;
+    border: 1px solid #989899;    
+}
+
+#finalMessage {
+    color: #D3D3D3;
+    font-size: 200%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+#correctAnswers, #incorrectAnswers, #unanswered {
+    color: #989899;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 2;
 }
